@@ -1,7 +1,32 @@
-# Summer.Practice.BI
-Repository with materials for students for Summer Practice
+# Summer.Practice.BI - Практическое задание по модулю BI
 
-## Installation
-1. Execute SQL query `SQL\1_Create DB structure.sql`
-2. Import data from the file `data generator and datasets\sessions_data.csv` to the table `game.sessions`
-3. Execute SQL query `SQL\2_Populate data.sql`
+## Список ПО, необходимый для выполнения задания:
+1. Git
+2. Postgres
+3. DBeaver
+4. VS Code
+5. Yandex Datalens
+
+## Описание задания
+Вы создали игру, которая становится популярной и в нее начинают играть во многих странах.
+Заказчик хотел бы ежедневно анализировать статистику по игрокам, чтобы своевременно
+принимать бизнес-решения. Ваша задача – создать дашборд, который поможет ответить на
+вопросы:
+1. Общее количество уникальных игроков.
+2. Количество игроков по странам.
+3. Динамика популярности игры по месяцам.
+4. Пользователи из какого города чаще всего играют в игру.
+5. Топ игроков, которые провели больше всего времени в игре.
+6. В скольких городах Австралии играют в игру.
+7. Количество игроков, которые не соответствуют нашим ожиданиям по времени в игре.
+8. Доля российских игроков.
+
+## Структура базы данных
+![Структура базы данных](https://github.com/user-attachments/assets/4610d1de-1dcb-4fa2-89c6-cd41b90a3f3c)
+
+## Результат
+[Интерактивный дашборд](https://datalens.yandex/qhp7xpi5vaeqd?state=543d4dd7103)
+### Общий вид
+![Screenshot 2025-02-14 200250](https://github.com/user-attachments/assets/d5720e74-7b7a-492b-a75c-707949e588c7)
+### Пример фильтрации
+![image](https://github.com/user-attachments/assets/8e08f12f-c549-4d9e-b249-6eb26cfd7e47)
